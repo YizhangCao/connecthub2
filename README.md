@@ -7,11 +7,6 @@
 
 ConnectHub is a full-stack MERN application that helps professionals, freelancers, and job seekers maintain meaningful relationships by tracking contacts and interactions. Unlike basic contact apps or LinkedIn, ConnectHub provides a private workspace for managing relationship details that actually matter—what you discussed, when to follow up, and how relationships develop over time.
 
-## Screenshots
-
-![Dashboard View](screenshots/dashboard.png)
-![Contact Detail](screenshots/contact-detail.png)
-
 ## Features
 
 - **Contact Management**: Store contacts with name, email, company, role, and custom tags
