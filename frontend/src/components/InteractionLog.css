@@ -1,0 +1,77 @@
+.interaction-log {
+  border-left: 4px solid #3b82f6;
+  padding: 1rem 1rem 1rem 1.5rem;
+  margin-bottom: 1rem;
+  background: #f9fafb;
+  border-radius: 0 8px 8px 0;
+  transition: background 0.2s;
+}
+
+.interaction-log:hover {
+  background: #f3f4f6;
+}
+
+.interaction-log-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.interaction-log-icon {
+  padding: 0.5rem;
+  background: #eff6ff;
+  color: #3b82f6;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.interaction-log-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  flex: 1;
+}
+
+.interaction-log-type {
+  font-weight: 600;
+  color: #111827;
+  text-transform: capitalize;
+}
+
+.interaction-log-separator {
+  color: #d1d5db;
+}
+
+.interaction-log-date,
+.interaction-log-duration {
+  color: #6b7280;
+}
+
+.interaction-log-delete {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.interaction-log-delete:hover {
+  background: #fee2e2;
+  color: #ef4444;
+}
+
+.interaction-log-notes {
+  color: #4b5563;
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
